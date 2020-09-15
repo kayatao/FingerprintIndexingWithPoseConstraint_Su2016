@@ -44,8 +44,7 @@ There are 3 steps to run fingerprint indexing with pose constraints.
 
 1. Create hash functions:
 	
-	The hash functions can be created by calling construction function of ```FPIndexingMCCPoseConst_Su2016``` class as follows.
-	
+	When a new object of ```FPIndexingMCCPoseConst_Su2016``` class is created, the hash functions are also created by calling construction function of the class as follows.
 	* To create new hash functions
 	```c#
 	FPIndexingMCCPoseConst_Su2016 su2016 = new FPIndexingMCCPoseConst_Su2016();
